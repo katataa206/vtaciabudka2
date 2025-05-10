@@ -24,6 +24,8 @@ video {
 }
 
 .footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   margin-top: 1rem;
   display: flex;
   background: #0f0f0f;
@@ -35,9 +37,22 @@ video {
   justify-content: end;
   padding-right: 1rem;
   box-sizing: border-box;
+  gap: 0.2rem;
 }
 
+svg {
+  position: relative;
+}
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
 
 /* Pre tablety a vyššie */
 @media (min-width: 768px) {
